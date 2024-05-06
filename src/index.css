@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+
+.headline {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+img.banner {
+    width: 500px;
+    margin: 0 3px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 150px 400px;
+    margin: 10px auto;
+    max-width: fit-content;
+    border: 1px dashed;
+}
+
+.menu-item-name {
+    font-weight: bold;
+}
+
+.menu-item-image {
+    width: 150px;
+}
